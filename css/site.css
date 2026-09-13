@@ -86,3 +86,26 @@ body {
   #content { margin: 0 20px; }
   #primary { float: none; width: auto; margin: 20px; }
 }
+
+/* Layout harden: keep Twenty Ten sidebar aligned beside content */
+#wrapper {
+  overflow: hidden;
+}
+#main {
+  overflow: hidden;
+  min-height: 1px;
+}
+#primary {
+  float: right;
+  width: 220px;
+  margin: 0 0 24px 0;
+  clear: right;
+}
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+#content {
+  margin: 0 280px 0 20px;
+}
