@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.greencarnationprize.com/sitemap.xml
+Sitemap: https://greencarnationprize.com/sitemap.xml
